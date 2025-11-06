@@ -11,9 +11,9 @@ if user_selection == "1":
     width = int(input("Введите желаемую ширину: "))
     length = int(input("Введите желаемую длинну: "))
     result_way = modification_module.resize_picture(picture_way, width, length)
-    print('Сохранено в папку с модулем: {result_way}')
+    print("Сохранено в папку с модулем")
 if user_selection == "2":
-    corner = int(input('Введите угол поворота (например, 90): '))
+    corner = int(input("Введите угол поворота: "))
     result_way = modification_module.rotate_picture(picture_way, corner)
-    print('Сохранено в папку с модулем: {result_way}')
+    print("Сохранено в папку с модулем")
 
